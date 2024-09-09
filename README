@@ -1,0 +1,9 @@
+npm init -y
+install dependencies: 
+    express cors dotenv mongodb mongoose
+# TYPESCRIPT
+
+# FRONTEND
+Bootstrap for React
+Tailwinds for styling
+Shadcn for compoenent library
