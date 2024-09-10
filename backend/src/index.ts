@@ -14,6 +14,8 @@ app.use(cors())
 
 app.use("/api/my/user", myUserRoute)
 
+
+
 app.listen(7000, ()=>{
     console.log("Server is running on localhost:7000")
 })
