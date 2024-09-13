@@ -26,15 +26,17 @@ export default function UsernameMenu() {
           </Link>
         </DropdownMenuItem>
 
-        <Separator/>
+        <Separator />
 
         <DropdownMenuItem className="flex flex-center">
-          <Button
-            onClick={() => logout()}
-            className="flex flex-1 font-bold bg-orange-500"
-          >
-            Log out
-          </Button>
+          
+            <Button
+              onClick={() => logout()}
+              className="flex flex-1 font-bold bg-orange-500"
+              ref="/"
+            >
+              Log out
+            </Button>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
