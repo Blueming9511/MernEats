@@ -9,7 +9,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         require: true
     },
-    adddressLine1: {
+    addressLine1: {
         type: String,
     },
     name: {
