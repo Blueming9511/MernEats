@@ -4,15 +4,16 @@ import Hero from "@/components/Hero";
 import React from "react";
 type Props = {
   children: React.ReactNode;
+  showHero?: boolean; //? means optional
 };
 
-const layout = ({ children }: Props) => {
+const layout = ({ children, showHero = false }: Props) => {
   return (
     <div className="container-fluid flex flex-col min-h-screen">
       <Header />
-      <Hero />
+      {showHero && <Hero />}
       <div className="container mx-auto flex-1 py-10">{children}</div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
